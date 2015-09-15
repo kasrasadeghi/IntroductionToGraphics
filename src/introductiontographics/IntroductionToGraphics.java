@@ -29,8 +29,8 @@ public class IntroductionToGraphics
         //runSnakeCursor();
         //runAmericanFlag();
         //runSimpleRadar();
-        runRadar();
-        //runSmoothRainbow();
+        //runRadar();
+        runSmoothRainbow();
 
     }
     
