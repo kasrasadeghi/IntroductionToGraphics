@@ -26,9 +26,20 @@ class SimpleRadarDisplay implements View<SimpleRadar>
         
             // the starting angle and extent of each segment can be calculated from the
             // the starting angle of the first segment, the segment number, and the number of segments
+        
+        int outr = sr.getOuterRadius();
+        int inr = sr.getInnerRadius();
+        int cx = w/2;
+        int cy = h/2;
+        int tlx = cx - outr;
+        int tly = cy - outr;
+        g.setColor( Color.GREEN);
+        for (int i = 0; i < 5; ++i) {
             
-        
-        
+            g.fillArc(tlx, tly, 2* outr, 2* outr, sr.getStartAngle() + 36 * 2 * i, 36);
+        }
+        g.setColor(Color.WHITE);
+        g.fillOval(cx - inr, cy - inr, inr* 2, inr * 2);
     }
     
 }

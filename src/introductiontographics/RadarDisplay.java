@@ -30,6 +30,22 @@ public class RadarDisplay implements View<Radar>
                 // each segment consists of a filled arc... where should it start and what should it's extent be?
                 // you can calculate these answers from the start angle for the ring and the number of segments
                 // in the ring
+        int ringNum = m.getNumRings(); int r = m.getRadius(); int dr = r/ringNum;
+        int cx = w/2; int cy = h/2; int k;
+        for (int i = 0; i < ringNum; ++i) {
+            k = ringNum - i;
+            g.setColor(Color.WHITE);
+            g.fillOval(cx - k*dr, cy - k*dr, 2*k*dr, 2*k*dr);
+            for( int j = 0; j < m.getNumSegments(i); ++j) {
+                int angle = 360/(m.getNumSegments(i));
+                
+                g.setColor(Color.GREEN);
+                g.fillArc( cx - k*dr, cy - k*dr , 2*k*dr, 2*k*dr,
+                        m.getStartAngle(i) + angle * j, angle/2);
+                
+            }
+            
+        }
         
     }
     
