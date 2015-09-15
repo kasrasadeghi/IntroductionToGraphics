@@ -19,7 +19,7 @@ public class IntroductionToGraphics
     {
         //runBasicHouse();
         //runBouncingBall();
-        //runPacMan();
+        runPacMan();
         //runTargetRectangle();
         //runPulseHouse();
         //runBouncingBalls();
@@ -30,7 +30,7 @@ public class IntroductionToGraphics
         //runAmericanFlag();
         //runSimpleRadar();
         //runRadar();
-        runSmoothRainbow();
+        //runSmoothRainbow();
 
     }
     

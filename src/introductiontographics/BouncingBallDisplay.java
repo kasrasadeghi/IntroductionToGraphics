@@ -21,7 +21,11 @@ public class BouncingBallDisplay implements View<BouncingBall>
     {
         // draw a circle centered at the ball's center with the ball's radius and colored the ball's color
         // use the functions provided by BouncingBall b to determine these values
-        
+        g.setColor(b.getColor());
+        g.fillOval((int)(b.getX() - b.getRadius()),
+                (int)((b.getY() - b.getRadius())),
+                (int)( 2*b.getRadius()), 
+                (int) (2*b.getRadius()));
     }
     
 }

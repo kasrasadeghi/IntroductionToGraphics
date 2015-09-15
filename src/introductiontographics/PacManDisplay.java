@@ -27,7 +27,10 @@ public class PacManDisplay implements View<PacMan>
         // draw a pacman
         // it should be yellow (of course)
         // the size, location and angle of the mouth can be obtained from the PacMan object, pm
-        
+        g.setColor(Color.YELLOW );
+        g.fillOval(pm.getX() - pm.getRadius(), pm.getY() - pm.getRadius(), 2*pm.getRadius(), 2*pm.getRadius());
+        g.setColor(Color.WHITE);
+        g.fillArc(pm.getX() - pm.getRadius(), pm.getY() - pm.getRadius(), 2*pm.getRadius(), 2*pm.getRadius(), pm.getMouthAngle()/2, -pm.getMouthAngle());
     }
     
 }

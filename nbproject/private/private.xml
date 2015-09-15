@@ -3,20 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/dstigant/Dropbox/AP%20Computer%20Science%20-%20Stigant,%20David/IntroductionToGraphics/src/introductiontographics/IntroductionToGraphics.java</file>
-            <file>file:/C:/Users/dstigant/Dropbox/AP%20Computer%20Science%20-%20Stigant,%20David/IntroductionToGraphics/src/introductiontographics/HouseDisplay.java</file>
-            <file>file:/C:/Users/dstigant/Dropbox/AP%20Computer%20Science%20-%20Stigant,%20David/IntroductionToGraphics/src/introductiontographics/GraphicsHelperFunctions.java</file>
-            <file>file:/C:/Users/dstigant/Dropbox/AP%20Computer%20Science%20-%20Stigant,%20David/IntroductionToGraphics/src/introductiontographics/HousePulseController.java</file>
-            <file>file:/C:/Users/dstigant/Dropbox/AP%20Computer%20Science%20-%20Stigant,%20David/IntroductionToGraphics/src/introductiontographics/BouncingBall.java</file>
-            <file>file:/C:/Users/dstigant/Dropbox/AP%20Computer%20Science%20-%20Stigant,%20David/IntroductionToGraphics/src/introductiontographics/BouncingBallDisplay.java</file>
-            <file>file:/C:/Users/dstigant/Dropbox/AP%20Computer%20Science%20-%20Stigant,%20David/IntroductionToGraphics/src/introductiontographics/BouncingBallsCV.java</file>
-            <file>file:/C:/Users/dstigant/Dropbox/AP%20Computer%20Science%20-%20Stigant,%20David/IntroductionToGraphics/src/introductiontographics/TargetRectangleDisplay.java</file>
-            <file>file:/C:/Users/dstigant/Dropbox/AP%20Computer%20Science%20-%20Stigant,%20David/IntroductionToGraphics/src/introductiontographics/RadarDisplay.java</file>
-            <file>file:/C:/Users/dstigant/Dropbox/AP%20Computer%20Science%20-%20Stigant,%20David/IntroductionToGraphics/src/introductiontographics/Radar.java</file>
-            <file>file:/C:/Users/dstigant/Dropbox/AP%20Computer%20Science%20-%20Stigant,%20David/IntroductionToGraphics/src/introductiontographics/AmericanFlag.java</file>
-            <file>file:/C:/Users/dstigant/Dropbox/AP%20Computer%20Science%20-%20Stigant,%20David/IntroductionToGraphics/src/introductiontographics/SmoothRainbow.java</file>
-            <file>file:/C:/Users/dstigant/Dropbox/AP%20Computer%20Science%20-%20Stigant,%20David/IntroductionToGraphics/src/introductiontographics/SimpleRadar.java</file>
-            <file>file:/C:/Users/dstigant/Dropbox/AP%20Computer%20Science%20-%20Stigant,%20David/IntroductionToGraphics/src/introductiontographics/SimpleRadarDisplay.java</file>
+            <file>file:/C:/Users/Sarah%20M/Documents/CompSci/Project/IntroductionToGraphics/src/introductiontographics/BouncingBallDisplay.java</file>
+            <file>file:/C:/Users/Sarah%20M/Documents/CompSci/Project/IntroductionToGraphics/src/introductiontographics/GraphicsHelperFunctions.java</file>
+            <file>file:/C:/Users/Sarah%20M/Documents/CompSci/Project/IntroductionToGraphics/src/introductiontographics/AmericanFlag.java</file>
+            <file>file:/C:/Users/Sarah%20M/Documents/CompSci/Project/IntroductionToGraphics/src/introductiontographics/IntroductionToGraphics.java</file>
+            <file>file:/C:/Users/Sarah%20M/Documents/CompSci/Project/IntroductionToGraphics/src/introductiontographics/PacManDisplay.java</file>
+            <file>file:/C:/Users/Sarah%20M/Documents/CompSci/Project/IntroductionToGraphics/src/introductiontographics/PacMan.java</file>
+            <file>file:/C:/Users/Sarah%20M/Documents/CompSci/Project/IntroductionToGraphics/src/introductiontographics/HouseDisplay.java</file>
         </group>
     </open-files>
 </project-private>

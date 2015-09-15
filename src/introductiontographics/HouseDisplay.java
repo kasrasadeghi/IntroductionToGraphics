@@ -18,9 +18,13 @@ public class HouseDisplay implements View<Integer[]>
 
     protected void paintHouse( int size, int Cx, int Cy, Graphics g )
     {
+        int bw = 3;
         // draw a red square centered at Cx, Cy with side length size
         g.setColor( Color.RED );
         g.fillRect( Cx - size/2, Cy - size/2, size, size );
+        g.setColor( Color.BLACK );
+        for (int i = 0; i < bw; i++)
+            g.drawRect( Cx - size/2 + i, Cy - size/2 + i, size - 2*i, size - 2*i );
         
         // draw a yellow door
         // the door should be size/4 pixels wide and size/2 pixels tall
@@ -28,13 +32,19 @@ public class HouseDisplay implements View<Integer[]>
         // aligned with the bottom of the square vertically
         // outline the door in black
         
+        g.setColor( Color.YELLOW );
+        g.fillRect(Cx - size/8, Cy, size/4, size/2);
+        
+        g.setColor( Color.BLACK );
+        for (int i = 0; i < bw; i++)
+            g.drawRect(Cx - size/8 + i, Cy + i, size/4 - 2*i , size/2 - 2*i);
         
         // draw a blue triangle for the roof.  Don't forget the functions
         // fillTriangle and drawTriangle in class GraphicsHelperFunctions
         // The base of the triangle should be the same size as the red square
         // The height of the triangle should be size/2
         // outline the triangle in black
-        
+//        GraphicsHelperFunctions.fillTriangle(size/2, );
         
         // add two windows to the body of the house
         // both should be white
