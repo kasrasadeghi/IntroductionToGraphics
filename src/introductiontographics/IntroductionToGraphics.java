@@ -17,20 +17,20 @@ public class IntroductionToGraphics
 {
     public static void main(String[] args)
     {
-        //runBasicHouse();
-        //runBouncingBall();
-        //runPacMan();
-        //runTargetRectangle();
-        //runPulseHouse();
-        //runBouncingBalls();
-        
-        //runSmileyFace();
-        //runRainbow();
-        //runSnakeCursor();
-        runAmericanFlag();
-        //runSimpleRadar();
-        //runRadar();
-        //runSmoothRainbow();
+//        runBasicHouse();
+//        runBouncingBall();
+//        runPacMan();
+        runTargetRectangle();
+//        runPulseHouse();
+//        runBouncingBalls();
+//        
+//        runSmileyFace();
+//        runRainbow();
+//        runSnakeCursor();
+//        runAmericanFlag();
+//        runSimpleRadar();
+//        runRadar();
+//        runSmoothRainbow();
 
     }
     
@@ -43,8 +43,7 @@ public class IntroductionToGraphics
     
     public static void runPulseHouse()
     {
-        Integer [] size = new Integer[1];
-        size[0] = 100;
+        Integer [] size = { 100, 400, 300 };
         new CVMProgram( "Pulsing House", 800, 600, new HousePulseController(), new HouseDisplay(), size ).start();
     }
     

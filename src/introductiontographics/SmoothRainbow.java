@@ -28,7 +28,7 @@ public class SmoothRainbow implements View<Integer>
         int cx = w/2;
         int cy = h/2;
         
-        int temp = 600;
+        int temp = 512;
         for (int i = temp + r/8; i > -1; --i) {
             Color phaser = new Color(getRed(i), getGreen(i), getBlue(i));
             g.setColor(phaser);
@@ -42,7 +42,7 @@ public class SmoothRainbow implements View<Integer>
         g.clearRect(cx - r - r/2, cy, 2*r + r, 2*r + r);
         
     }
-    double c = 2.1;
+    double c = 2.4;
     public int getRed(int i )
     {
         double a = (double)(i);
