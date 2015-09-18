@@ -37,15 +37,18 @@ public class TargetRectangleDisplay implements View<Integer[]>
         else r = h/(2*numRows);
         int d = r* 2;
         
+        int tlx = w/2 - numCols*r;
+        int tly = h/2 - numRows*r;
+        
         for ( int i = 0; i < numRows; ++i) {
             for ( int j = 0; j < numCols; ++j ) { 
                 g.setColor( Color.BLUE);
-                g.fillOval( j * d, i * d , d, d);
+                g.fillOval( tlx + j * d, tly + i * d , d, d);
                 g.setColor( Color.YELLOW);
-                g.fillOval( j * d + r/2, i * d + r/2, r, r);
+                g.fillOval( tlx + j * d + r/2, tly + i * d + r/2, r, r);
                 g.setColor( Color.BLACK);
-                g.drawOval( j * d, i * d , d, d);
-                g.drawOval( j * d + r/2, i * d + r/2, r, r);
+                g.drawOval( tlx + j * d, tly + i * d , d, d);
+                g.drawOval( tlx + j * d + r/2, tly + i * d + r/2, r, r);
             }
         }
         
