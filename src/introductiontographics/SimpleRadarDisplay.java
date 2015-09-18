@@ -34,10 +34,9 @@ class SimpleRadarDisplay implements View<SimpleRadar>
         int tlx = cx - outr;
         int tly = cy - outr;
         g.setColor( Color.GREEN);
-        for (int i = 0; i < 5; ++i) {
-            
-            g.fillArc(tlx, tly, 2* outr, 2* outr, sr.getStartAngle() + 36 * 2 * i, 36);
-        }
+        int theta = 180/sr.getNumBlocks();
+        for (int i = 0; i < sr.getNumBlocks(); ++i)  
+            g.fillArc(tlx, tly, 2* outr, 2* outr, sr.getStartAngle() + theta * 2 * i, theta);
         g.setColor(Color.WHITE);
         g.fillOval(cx - inr, cy - inr, inr* 2, inr * 2);
     }

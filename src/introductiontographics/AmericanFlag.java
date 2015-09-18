@@ -41,7 +41,7 @@ public class AmericanFlag implements View<Integer[]>
         // the rows of 5 are horizontally indented by BFw/6 and horizontally spaced by BFw/6
         // the rows are vertically indented by BFh/18 and vertically spaced by BFh/9
         int BFw = 6 * fw / 13; int BFh = 7 * fh / 13 - 3; 
-        double fwd = (double)(fw); double r = fw/55;
+        double r = fw/55;
         g.setColor(Color.WHITE);
         for (int i = 0; i < 9; ++i) {
             if (i%2 == 0) {
@@ -59,6 +59,7 @@ public class AmericanFlag implements View<Integer[]>
     }    
 
     
+    @Override
     public void paint( Integer[] m, Graphics g, int w, int h )
     {
         paintFlag( m[0], m[1], g, w, h );

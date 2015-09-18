@@ -27,10 +27,10 @@ public class IntroductionToGraphics
         //runSmileyFace();
         //runRainbow();
         //runSnakeCursor();
-        //runAmericanFlag();
+        runAmericanFlag();
         //runSimpleRadar();
         //runRadar();
-        runSmoothRainbow();
+        //runSmoothRainbow();
 
     }
     
